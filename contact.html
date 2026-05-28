@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — SPIO Systems</title>
+  <meta name="description" content="Get in touch with SPIO Systems. Contact us about optical design, prototyping, or volume production services.">
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav>
+    <div class="container">
+      <div class="nav-inner">
+        <a href="index.html" class="nav-logo">
+          <img src="icon.svg" alt="" class="logo-icon">
+          <div class="logo-wordmark">
+            <span class="logo-spio">SPIO</span>
+            <span class="logo-systems">SYSTEMS</span>
+          </div>
+        </a>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="technology.html">Technology</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html" class="nav-cta">Get in Touch</a></li>
+        </ul>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-content">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb-sep">/</span>
+          <span>Contact</span>
+        </div>
+        <h1>Get in Touch</h1>
+        <p>Have a project in mind or questions about our technology? Fill out the form and we will get back to you.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- Contact info -->
+        <div>
+          <span class="eyebrow">Contact Information</span>
+          <h2 style="margin-top:16px; margin-bottom:8px; font-size:1.8rem;">Let&rsquo;s Get in Touch</h2>
+          <p style="margin-bottom:32px;">Reach us directly by phone or email, or use the contact form. We typically respond within one business day.</p>
+
+          <div class="contact-info-stack">
+            <div class="contact-item">
+              <div class="c-icon">&#128205;</div>
+              <div>
+                <h4>Address</h4>
+                <p>SPIO Systems ApS<br>H&oslash;rmarken 2<br>3520 Farum, Denmark</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="c-icon">&#128222;</div>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+4571963520">+45 71 96 35 20</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="c-icon">&#9993;</div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:contact@spiosystems.com">contact@spiosystems.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="c-icon" style="font-size:0.9rem; font-weight:800; letter-spacing:-0.02em;">in</div>
+              <div>
+                <h4>LinkedIn</h4>
+                <a href="https://www.linkedin.com/company/spio-systems" target="_blank" rel="noopener">Follow us on LinkedIn</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Brand gradient strip -->
+          <div style="margin-top:32px; height:5px; background:var(--brand-grad-full); border-radius:3px;"></div>
+        </div>
+
+        <!-- Form -->
+        <div class="form-card">
+          <h3>Send Us a Message</h3>
+          <p>Fill out the form and we will contact you.</p>
+
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name <span style="color:#ef4444;">*</span></label>
+                <input type="text" id="first-name" name="first_name" placeholder="Henrik" required>
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name <span style="color:#ef4444;">*</span></label>
+                <input type="text" id="last-name" name="last_name" placeholder="Madsen" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address <span style="color:#ef4444;">*</span></label>
+              <input type="email" id="email" name="email" placeholder="you@company.com" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company" placeholder="Your company">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="+45 00 00 00 00">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject <span style="color:#ef4444;">*</span></label>
+              <select id="subject" name="subject" required>
+                <option value="" disabled selected>Select a topic&hellip;</option>
+                <option value="design">Design Services</option>
+                <option value="prototyping">Prototyping</option>
+                <option value="volume">Volume Production</option>
+                <option value="technology">Technology Inquiry</option>
+                <option value="partnership">Partnership / Investment</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message <span style="color:#ef4444;">*</span></label>
+              <textarea id="message" name="message" placeholder="Tell us about your project or question&hellip;" required></textarea>
+            </div>
+            <button type="submit" class="form-submit">
+              Send Message &rarr;
+            </button>
+          </form>
+
+          <div class="form-success" id="form-success">
+            <div class="check">&#10003;</div>
+            <h3>Message Sent!</h3>
+            <p>Thank you for reaching out. We will get back to you within one business day.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Location</span>
+        <h2>Find Us in Farum, Denmark</h2>
+        <p>We are located at H&oslash;rmarken 2, 3520 Farum, just north of Copenhagen.</p>
+      </div>
+      <div style="background:var(--white); border:1px solid var(--border); border-radius:var(--radius-lg); overflow:hidden; box-shadow:var(--shadow);">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2242.7!2d12.3617!3d55.8126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465240a8a3b9b6b1%3A0x0!2sH%C3%B8rmarken+2%2C+3520+Farum%2C+Denmark!5e0!3m2!1sen!2sdk!4v1700000000000!5m2!1sen!2sdk"
+          width="100%" height="380" style="border:0; display:block;"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="SPIO Systems location map">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <a href="index.html" class="footer-logo">
+            <img src="icon.svg" alt="" style="width:28px;height:auto;filter:brightness(0) invert(1);">
+            <div class="logo-wordmark">
+              <span class="logo-spio">SPIO</span>
+              <span class="logo-systems">SYSTEMS</span>
+            </div>
+          </a>
+          <p>Low cost, scalable contract manufacturing of optical devices based on Stacked Planar Integrated Optics technology. Founded 2020, Farum, Denmark.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="technology.html">Technology</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html">Design Services</a></li>
+            <li><a href="services.html">Prototyping</a></li>
+            <li><a href="services.html">Volume Production</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="mailto:contact@spiosystems.com">contact@spiosystems.com</a></li>
+            <li><a href="tel:+4571963520">+45 71 96 35 20</a></li>
+            <li><a href="contact.html">Get in Touch</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 SPIO Systems ApS &mdash; H&oslash;rmarken 2, 3520 Farum, Denmark</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/company/spio-systems" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('nav-toggle');
+    const links = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => links.classList.toggle('open'));
+
+    const form = document.getElementById('contact-form');
+    const success = document.getElementById('form-success');
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const required = form.querySelectorAll('[required]');
+      let valid = true;
+      required.forEach(el => {
+        el.style.borderColor = '';
+        if (!el.value.trim()) { el.style.borderColor = '#ef4444'; valid = false; }
+      });
+      if (!valid) return;
+      const btn = form.querySelector('.form-submit');
+      btn.textContent = 'Sending…';
+      btn.disabled = true;
+      setTimeout(() => {
+        form.style.display = 'none';
+        success.style.display = 'block';
+      }, 800);
+    });
+  </script>
+</body>
+</html>
