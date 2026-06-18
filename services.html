@@ -25,9 +25,25 @@
         </a>
         <ul class="nav-links" id="nav-links">
           <li><a href="index.html">Home</a></li>
+          <li class="nav-dropdown">
+            <a href="products.html" class="nav-dropdown-toggle">Products <span class="nav-caret">&#9662;</span></a>
+            <div class="nav-dropdown-menu">
+              <a href="products.html" class="menu-head">All Products</a>
+              <a href="product-nir-spectrometer.html">NIR Spectrometer</a>
+              <a href="product-vis-spectrometer.html">VIS Spectrometer</a>
+              <a href="product-development-kit.html">Spectrometer Development Kit</a>
+              <a href="product-nano-raman-metalens.html">Nano-Raman Metalens</a>
+            </div>
+          </li>
           <li><a href="services.html" class="active">Services</a></li>
           <li><a href="technology.html">Technology</a></li>
+          <li><a href="blog.html">Insights</a></li>
           <li><a href="about.html">About Us</a></li>
+          <li>
+            <button class="nav-search-btn" id="nav-search-btn" aria-label="Search" title="Search (press /)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            </button>
+          </li>
           <li><a href="contact.html" class="nav-cta">Get in Touch</a></li>
         </ul>
         <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
@@ -221,18 +237,21 @@
           <h5>Navigation</h5>
           <ul>
             <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="technology.html">Technology</a></li>
+            <li><a href="blog.html">Insights</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h5>Services</h5>
+          <h5>Products</h5>
           <ul>
-            <li><a href="services.html">Design Services</a></li>
-            <li><a href="services.html">Prototyping</a></li>
-            <li><a href="services.html">Volume Production</a></li>
+            <li><a href="product-nir-spectrometer.html">NIR Spectrometer</a></li>
+            <li><a href="product-vis-spectrometer.html">VIS Spectrometer</a></li>
+            <li><a href="product-development-kit.html">Development Kit</a></li>
+            <li><a href="product-nano-raman-metalens.html">Nano-Raman Metalens</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -258,5 +277,6 @@
     const links = document.getElementById('nav-links');
     toggle.addEventListener('click', () => links.classList.toggle('open'));
   </script>
+  <script src="search.js"></script>
 </body>
 </html>
