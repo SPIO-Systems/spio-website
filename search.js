@@ -96,6 +96,15 @@ const SEARCH_INDEX = [
     excerpt: 'How a free-space optical setup becomes a compact, wafer-level micro optics module in polymer photonics.',
     keywords: 'micro optics polymer photonics spectrometer micro-spectrometer volume production optical design free-space chip wafer photonic engineer article sample'
   },
+
+  /* ── Q&A ── */
+  {
+    title: 'Q&A',
+    url: 'qa.html',
+    type: 'Page',
+    excerpt: 'Questions and answers on micro optics, polymer photonics, spectrometers, micro-spectrometers, and volume production.',
+    keywords: 'qa q&a faq questions answers micro optics polymer photonics spectrometer micro-spectrometer volume production free-space optics mission foundation foss millpond ibsen photonics per ibsen copenhagen'
+  },
 ];
 
 /* ──────────────────────────────────────────────────────────────────── */
