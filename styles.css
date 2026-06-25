@@ -470,7 +470,7 @@ nav {
 
 /* ── CTA SECTION ── */
 .cta-section {
-  background: linear-gradient(135deg, #1C1440 0%, #34215E 100%);
+  background: linear-gradient(180deg, #1C1440 0%, #2A1E58 50%, #221750 100%);
   text-align: center;
   padding: 96px 0;
   position: relative;
@@ -595,7 +595,7 @@ textarea { min-height: 140px; resize: vertical; }
 
 /* ── FOOTER ── */
 footer {
-  background: var(--primary);
+  background: #221750;
   color: rgba(255,255,255,0.65);
   padding: 72px 0 32px;
 }
