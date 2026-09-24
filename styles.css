@@ -11,7 +11,7 @@
   --warm-purple:    #9B2DE8;
   --warm-violet:    #7B4FE0;
 
-  /* ── UI accent — coral-red from the logo ── */
+  /* ── UI accent - coral-red from the logo ── */
   --accent:         #E9573D;
   --accent-hover:   #C9432A;
 
@@ -712,7 +712,7 @@ footer {
 }
 
 /* ════════════════════════════════════════════════════════════════════
-   PRODUCTS · SEARCH · INSIGHTS (BLOG)  — feature additions
+   PRODUCTS · SEARCH · INSIGHTS (BLOG)  - feature additions
    ════════════════════════════════════════════════════════════════════ */
 
 /* ── NAV DROPDOWN ── */
@@ -940,7 +940,7 @@ a.tag:hover { background: var(--warm-coral); color: white; }
 }
 
 /* The Products / Insights additions make the nav wider, so collapse it into
-   the hamburger menu earlier (≤960px) — this is what keeps the top bar from
+   the hamburger menu earlier (≤960px) - this is what keeps the top bar from
    cramping or wrapping on medium screens. */
 @media (max-width: 960px) {
   .nav-links {

@@ -18,16 +18,16 @@
     </linearGradient>
   </defs>
 
-  <!-- Layer 4 — bottom purple -->
+  <!-- Layer 4 - bottom purple -->
   <path d="M53,45 Q60,42 67,45 L113,67 Q120,70 113,73 L67,95 Q60,98 53,95 L7,73 Q0,70 7,67 Z"
         fill="url(#g4)" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"/>
-  <!-- Layer 3 — magenta -->
+  <!-- Layer 3 - magenta -->
   <path d="M53,31 Q60,28 67,31 L113,53 Q120,56 113,59 L67,81 Q60,84 53,81 L7,59 Q0,56 7,53 Z"
         fill="url(#g3)" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"/>
-  <!-- Layer 2 — coral -->
+  <!-- Layer 2 - coral -->
   <path d="M53,17 Q60,14 67,17 L113,39 Q120,42 113,45 L67,67 Q60,70 53,67 L7,45 Q0,42 7,39 Z"
         fill="url(#g2)" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"/>
-  <!-- Layer 1 — top orange -->
+  <!-- Layer 1 - top orange -->
   <path d="M53,3 Q60,0 67,3 L113,25 Q120,28 113,31 L67,53 Q60,56 53,53 L7,31 Q0,28 7,25 Z"
         fill="url(#g1)" stroke="rgba(255,255,255,0.45)" stroke-width="1.5"/>
 </svg>

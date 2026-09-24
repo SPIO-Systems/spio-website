@@ -1,5 +1,5 @@
 /* ════════════════════════════════════════════════════════════════════
-   SPIO Systems — client-side site search
+   SPIO Systems - client-side site search
    ────────────────────────────────────────────────────────────────────
    Pure static, no backend. The index below is maintained by hand:
    when you add a new page or article, add an entry to SEARCH_INDEX.
@@ -12,21 +12,21 @@ const SEARCH_INDEX = [
     title: 'Home',
     url: 'index.html',
     type: 'Page',
-    excerpt: 'Miniaturizing optics, maximizing impact — optical chips for agriculture, medical, wearables and mobile.',
+    excerpt: 'Miniaturizing optics, maximizing impact - optical chips for agriculture, medical, wearables and mobile.',
     keywords: 'home spio systems optical chip micro optics polymer photonics spectrometer micro-spectrometer volume production miniaturize optics overview company'
   },
   {
     title: 'Services',
     url: 'services.html',
     type: 'Page',
-    excerpt: 'Optical design, prototyping and volume production — turn-key OEM contract manufacturing.',
+    excerpt: 'Optical design, prototyping and volume production - turn-key OEM contract manufacturing.',
     keywords: 'services design prototyping volume production manufacturing oem contract micro optics polymer photonics spectrometer micro-spectrometer redesign mastering'
   },
   {
     title: 'Technology',
     url: 'technology.html',
     type: 'Page',
-    excerpt: 'Stacked Planar Integrated Optics (SPIO) — nanoimprint lithography, roll-to-plate, wafer-level optics.',
+    excerpt: 'Stacked Planar Integrated Optics (SPIO) - nanoimprint lithography, roll-to-plate, wafer-level optics.',
     keywords: 'technology spio stacked planar integrated optics micro optics polymer photonics spectrometer micro-spectrometer volume production nanoimprint lithography roll-to-plate wafer photonics zemax freeform gratings'
   },
   {
@@ -49,7 +49,7 @@ const SEARCH_INDEX = [
     title: 'Products Overview',
     url: 'products.html',
     type: 'Page',
-    excerpt: 'Our optical chip products — spectrometers, development kits, and funded research.',
+    excerpt: 'Our optical chip products - spectrometers, development kits, and funded research.',
     keywords: 'products overview catalog portfolio micro optics polymer photonics spectrometer micro-spectrometer volume production development kit metalens'
   },
   {
@@ -70,7 +70,7 @@ const SEARCH_INDEX = [
     title: 'Spectrometer Development Kit',
     url: 'product-development-kit.html',
     type: 'Product',
-    excerpt: 'Evaluation and development kit for integrating SPIO spectrometer modules into your device.',
+    excerpt: 'Evaluation and development kit for integrating SPIO spectrometer modules into your product.',
     keywords: 'development kit dev kit micro-spectrometer micro optics polymer photonics volume production evaluation eval board sdk integration prototype spectrometer getting started'
   },
   {
