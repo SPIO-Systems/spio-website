@@ -288,6 +288,19 @@ nav {
   pointer-events: none;
 }
 .page-hero-content { position: relative; z-index: 1; }
+.page-hero-photo {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 320px;
+  max-width: 38%;
+  height: auto;
+  filter: drop-shadow(0 16px 34px rgba(0,0,0,0.4));
+  pointer-events: none;
+  z-index: 0;
+}
+@media (max-width: 900px) { .page-hero-photo { display: none; } }
 .breadcrumb {
   display: flex;
   align-items: center;
