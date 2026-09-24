@@ -410,8 +410,11 @@ nav {
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 28px 20px;
+  padding: 26px 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   transition: box-shadow 0.22s, transform 0.22s;
 }
 .team-card:hover { box-shadow: var(--shadow); transform: translateY(-3px); }
