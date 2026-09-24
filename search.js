@@ -49,8 +49,8 @@ const SEARCH_INDEX = [
     title: 'Products Overview',
     url: 'products.html',
     type: 'Page',
-    excerpt: 'Our optical chip products - spectrometers, development kits, and funded research.',
-    keywords: 'products overview catalog portfolio micro optics polymer photonics spectrometer micro-spectrometer volume production development kit metalens'
+    excerpt: 'Our optical chip products - spectrometers and development kits.',
+    keywords: 'products overview catalog portfolio micro optics polymer photonics spectrometer micro-spectrometer volume production development kit'
   },
   {
     title: 'NIR Spectrometer',
@@ -72,13 +72,6 @@ const SEARCH_INDEX = [
     type: 'Product',
     excerpt: 'Evaluation and development kit for integrating SPIO spectrometer modules into your product.',
     keywords: 'development kit dev kit micro-spectrometer micro optics polymer photonics volume production evaluation eval board sdk integration prototype spectrometer getting started'
-  },
-  {
-    title: 'Nano-Raman Metalens',
-    url: 'product-nano-raman-metalens.html',
-    type: 'Product',
-    excerpt: 'Funded research project: nanostructured metalens for Raman spectroscopy.',
-    keywords: 'nano raman metalens micro optics polymer photonics micro-spectrometer metasurface nanostructure funded project research grant spectroscopy flat optics'
   },
 
   /* ── Q&A ── */

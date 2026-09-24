@@ -10,7 +10,7 @@ Save the three images you shared into THIS folder, with these EXACT names:
                           Shows on: NIR Spectrometer page + Spectrometer Development Kit page.
 
   module-inhand.png   ->  Image 3 (module held between two fingertips)
-                          Shows on: VIS Spectrometer page + Nano-Raman Metalens page.
+                          Shows on: VIS Spectrometer page.
 
 Notes:
 - The pages already reference these filenames, so they appear automatically once saved. Hard-refresh (Ctrl+F5) to see them.
