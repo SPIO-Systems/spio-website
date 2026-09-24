@@ -253,6 +253,15 @@ nav {
 .hero p { color: rgba(255,255,255,0.72); font-size: 1.1rem; margin-bottom: 40px; max-width: 580px; }
 .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
 
+/* Hero product image */
+.hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 48px; align-items: center; }
+.hero-grid .hero-content { max-width: none; }
+.hero-visual img { width: 100%; height: auto; display: block; filter: drop-shadow(0 22px 45px rgba(0,0,0,0.4)); }
+@media (max-width: 860px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 24px; }
+  .hero-visual { max-width: 440px; }
+}
+
 /* ── PAGE HERO (inner pages) ── */
 .page-hero {
   background: linear-gradient(140deg, #1C1440 0%, #2E2060 100%);
