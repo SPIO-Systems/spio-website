@@ -57,6 +57,10 @@ a { color: var(--accent); }
 
 /* ── LAYOUT ── */
 .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+/* Mission strip (quote + stats) */
+.mission-strip { display: grid; grid-template-columns: 1fr auto; gap: 48px; align-items: center; }
+.mission-stats { display: flex; gap: 32px; flex-shrink: 0; }
 .section { padding: 96px 0; }
 .section-alt { background: var(--bg); }
 
@@ -700,6 +704,8 @@ footer {
   .section { padding: 64px 0; }
   .hero { padding: 80px 0; }
   .page-hero { padding: 60px 0; }
+  .mission-strip { grid-template-columns: 1fr; gap: 28px; }
+  .mission-stats { flex-wrap: wrap; gap: 24px 36px; }
   .grid-3, .grid-2, .grid-4 { grid-template-columns: 1fr; }
   .contact-layout { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
