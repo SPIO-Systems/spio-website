@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page not found - SPIO Systems</title>
+  <meta name="description" content="This page could not be found. Visit the SPIO Systems home page to explore optical chips, spectrometers and volume production.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/svg+xml" href="/icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <nav>
+    <div class="container">
+      <div class="nav-inner">
+        <a href="/" class="nav-logo">
+          <img src="/icon.svg" alt="" class="logo-icon">
+          <div class="logo-wordmark">
+            <span class="logo-spio">SPIO</span>
+            <span class="logo-systems">SYSTEMS</span>
+          </div>
+        </a>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="/">Home</a></li>
+          <li class="nav-dropdown">
+            <a href="/products.html" class="nav-dropdown-toggle">Products <span class="nav-caret">&#9662;</span></a>
+            <div class="nav-dropdown-menu">
+              <a href="/products.html" class="menu-head">All Products</a>
+              <a href="/product-nir-spectrometer.html">NIR Spectrometer</a>
+              <a href="/product-vis-spectrometer.html">VIS Spectrometer</a>
+              <a href="/product-development-kit.html">Spectrometer Development Kit</a>
+            </div>
+          </li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/technology.html">Technology</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="/contact.html" class="nav-cta">Get in Touch</a></li>
+        </ul>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-content">
+        <h1>Page not found</h1>
+        <p>The page you are looking for has moved or no longer exists. Our website has been updated, so older links may no longer work.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HELPFUL LINKS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Where to next</span>
+        <h2>Find what you need</h2>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Products</h3>
+          <p>NIR and VIS spectrometer chips and a development kit.</p>
+          <a href="/products.html" class="btn btn-outline">View products &rarr;</a>
+        </div>
+        <div class="card">
+          <h3>Technology</h3>
+          <p>How we miniaturize optics onto a chip for volume production.</p>
+          <a href="/technology.html" class="btn btn-outline">Our technology &rarr;</a>
+        </div>
+        <div class="card">
+          <h3>Contact</h3>
+          <p>Can&rsquo;t find what you were looking for? Talk to our engineers.</p>
+          <a href="/contact.html" class="btn btn-outline">Get in touch &rarr;</a>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:48px;">
+        <a href="/" class="btn btn-primary">Back to the home page &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 SPIO Systems ApS - H&oslash;rmarken 2, 3520 Farum, Denmark</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/company/spio-systems" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('nav-toggle');
+    const links = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => links.classList.toggle('open'));
+  </script>
+</body>
+</html>
