@@ -13,35 +13,35 @@ const SEARCH_INDEX = [
     url: 'index.html',
     type: 'Page',
     excerpt: 'Miniaturizing optics, maximizing impact - optical chips for agriculture, medical, wearables and mobile.',
-    keywords: 'home spio systems optical chip micro optics polymer photonics spectrometer micro-spectrometer volume production miniaturize optics overview company'
+    keywords: 'home spio systems optical chip optics polymer photonics spectrometer miniaturized spectrometer volume production miniaturize optics overview company'
   },
   {
     title: 'Services',
     url: 'services.html',
     type: 'Page',
     excerpt: 'Optical design, prototyping and volume production - turn-key OEM contract manufacturing.',
-    keywords: 'services design prototyping volume production manufacturing oem contract micro optics polymer photonics spectrometer micro-spectrometer redesign mastering'
+    keywords: 'services design prototyping volume production manufacturing oem contract optics polymer photonics spectrometer miniaturized spectrometer redesign mastering'
   },
   {
     title: 'Technology',
     url: 'technology.html',
     type: 'Page',
     excerpt: 'Stacked Planar Integrated Optics (SPIO) - nanoimprint lithography, roll-to-plate, wafer-level optics.',
-    keywords: 'technology spio stacked planar integrated optics micro optics polymer photonics spectrometer micro-spectrometer volume production nanoimprint lithography roll-to-plate wafer photonics zemax freeform gratings'
+    keywords: 'technology spio stacked planar integrated optics optics polymer photonics spectrometer miniaturized spectrometer volume production nanoimprint lithography roll-to-plate wafer photonics zemax freeform gratings'
   },
   {
     title: 'About Us',
     url: 'about.html',
     type: 'Page',
     excerpt: 'An optics company north of Copenhagen, founded 2020. Engineers and physicists driven by curiosity.',
-    keywords: 'about company micro optics polymer photonics spectrometer micro-spectrometer volume production team leadership board farum denmark copenhagen founded history mission vision'
+    keywords: 'about company optics polymer photonics spectrometer miniaturized spectrometer volume production team leadership board farum denmark copenhagen founded history mission vision'
   },
   {
     title: 'Contact',
     url: 'contact.html',
     type: 'Page',
     excerpt: 'Get in touch about optical design, prototyping, or volume production.',
-    keywords: 'contact micro optics polymer photonics spectrometer micro-spectrometer volume production email phone address farum location map get in touch inquiry'
+    keywords: 'contact optics polymer photonics spectrometer miniaturized spectrometer volume production email phone address farum location map get in touch inquiry'
   },
 
   /* ── Products ── */
@@ -50,28 +50,28 @@ const SEARCH_INDEX = [
     url: 'products.html',
     type: 'Page',
     excerpt: 'Our optical chip products - spectrometers and development kits.',
-    keywords: 'products overview catalog portfolio micro optics polymer photonics spectrometer micro-spectrometer volume production development kit'
+    keywords: 'products overview catalog portfolio optics polymer photonics spectrometer miniaturized spectrometer volume production development kit'
   },
   {
     title: 'NIR Spectrometer',
     url: 'product-nir-spectrometer.html',
     type: 'Product',
     excerpt: 'Miniature near-infrared spectrometer on an optical chip for compact spectral sensing.',
-    keywords: 'nir near infrared spectrometer micro-spectrometer micro optics polymer photonics volume production spectral sensing miniature chip module agriculture medical wavelength'
+    keywords: 'nir near infrared spectrometer miniaturized spectrometer optics polymer photonics volume production spectral sensing miniature chip module agriculture medical wavelength'
   },
   {
     title: 'VIS Spectrometer',
     url: 'product-vis-spectrometer.html',
     type: 'Product',
     excerpt: 'Visible-range spectrometer on an optical chip for color and spectral analysis.',
-    keywords: 'vis visible spectrometer micro-spectrometer micro optics polymer photonics volume production color color spectral analysis chip module wavelength'
+    keywords: 'vis visible spectrometer miniaturized spectrometer optics polymer photonics volume production color color spectral analysis chip module wavelength'
   },
   {
     title: 'Spectrometer Development Kit',
     url: 'product-development-kit.html',
     type: 'Product',
     excerpt: 'Evaluation and development kit for integrating SPIO spectrometer modules into your product.',
-    keywords: 'development kit dev kit micro-spectrometer micro optics polymer photonics volume production evaluation eval board sdk integration prototype spectrometer getting started'
+    keywords: 'development kit dev kit miniaturized spectrometer optics polymer photonics volume production evaluation eval board sdk integration prototype spectrometer getting started'
   },
 
   /* ── Q&A ── */
@@ -79,8 +79,8 @@ const SEARCH_INDEX = [
     title: 'Q&A',
     url: 'qa.html',
     type: 'Page',
-    excerpt: 'Questions and answers on micro optics, polymer photonics, spectrometers, micro-spectrometers, and volume production.',
-    keywords: 'qa q&a faq questions answers micro optics polymer photonics spectrometer micro-spectrometer volume production free-space optics mission foundation foss millpond ibsen photonics per ibsen copenhagen'
+    excerpt: 'Questions and answers on optics, polymer photonics, spectrometers, miniaturized spectrometers, and volume production.',
+    keywords: 'qa q&a faq questions answers optics polymer photonics spectrometer miniaturized spectrometer volume production free-space optics mission foundation foss millpond ibsen photonics per ibsen copenhagen'
   },
 ];
 
